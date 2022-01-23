@@ -1,290 +1,290 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #191919;
-    color: #fff;
-    padding: 0;
-    margin: 0;
+  background-color: #191919;
+  color: #fff;
+  padding: 0;
+  margin: 0;
 }
 
 .button {
-    padding: 5px 20px;
-    background-color: transparent;
-    color: #fff;
-    border-radius: 999px;
-    border: 1px solid #fff;
-    font-size: 16px;
-    margin-right: 5px;
+  padding: 5px 20px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 999px;
+  border: 1px solid #fff;
+  font-size: 16px;
+  margin-right: 5px;
 }
 
 .button:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .button--white {
-    background-color: #fff;
-    color: #191919;
+  background-color: #fff;
+  color: #191919;
 }
 
 .button--yellow {
-    border-color: #cf8c29;
-    background-color: #cf8c29;
-    color: #191919;
+  border-color: #cf8c29;
+  background-color: #cf8c29;
+  color: #191919;
 }
 
 /* Navigacija */
 
 .nav {
-    height: 115px;
-    padding: 0 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  height: 115px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav__link {
-    color: #a4abb4;
-    text-decoration: none;
-    margin-right: 30px;
+  color: #a4abb4;
+  text-decoration: none;
+  margin-right: 30px;
 }
 
 .nav__link:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 /* Nekakva “svojstva” proizvoda */
 
 .features__nav {
-    display: flex;
-    align-items: center;
-    padding: 65px 40px 20px 40px;
+  display: flex;
+  align-items: center;
+  padding: 65px 40px 20px 40px;
 }
 
 .features__nav__link {
-    width: 25%;
-    font-size: 18px;
-    padding: 20px;
-    text-align: center;
-    color: #a4abb4;
-    border-bottom: 1px solid rgb(89, 95, 105);
-    text-decoration: none;
+  width: 25%;
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+  color: #a4abb4;
+  border-bottom: 1px solid rgb(89, 95, 105);
+  text-decoration: none;
 }
 
 .features__nav__link--selected {
-    border-color: #cf8c29;
-    color: #cf8c29;
+  border-color: #cf8c29;
+  color: #cf8c29;
 }
 
 .features {
-    display: flex;
-    margin-bottom: 65px;
+  display: flex;
+  margin-bottom: 65px;
 }
 
 .features > * {
-    width: 50%;
+  width: 50%;
 }
 
 .features__left-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .features__text {
-    width: 500px;
-    padding-bottom: 30px;
-    padding-left: 70px;
+  width: 500px;
+  padding-bottom: 30px;
+  padding-left: 70px;
 }
 
 .feature__subtitle {
-    color: #a4abb4;
-    font-size: 14px;
+  color: #a4abb4;
+  font-size: 14px;
 }
 
 .feature__title {
-    font-size: 44px;
-    margin: 0;
-    font-weight: 300;
+  font-size: 44px;
+  margin: 0;
+  font-weight: 300;
 }
 
 .feature__description {
-    line-height: 28px;
-    margin-bottom: 20px;
+  line-height: 28px;
+  margin-bottom: 20px;
 }
 
 .feature__cards {
-    display: flex;
+  display: flex;
 }
 
 .feature__card {
-    width: 300px;
-    margin-left: 40px;
+  width: 300px;
+  margin-left: 40px;
 }
 
 .feature__card__heading {
-    border-left: 1px solid #cf8c29;
-    padding: 0 30px;
+  border-left: 1px solid #cf8c29;
+  padding: 0 30px;
 }
 
 .feature__card__title {
-    font-size: 64px;
-    line-height: 64px;
-    margin: 0;
-    margin-bottom: 20px;
+  font-size: 64px;
+  line-height: 64px;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .feature__card__source {
-    font-size: 12px;
-    font-style: italic;
-    margin-left: 30px;
+  font-size: 12px;
+  font-style: italic;
+  margin-left: 30px;
 }
 
 .features__article {
-    padding-right: 40px;
-    display: flex;
-    flex-direction: column;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .features__article__image {
-    width: 100%;
+  width: 100%;
 }
 
 .features__article__text {
-    padding: 40px;
-    background-color: #373a25;
+  padding: 40px;
+  background-color: #373a25;
 }
 
 .features__article__tag {
-    margin: 0;
+  margin: 0;
 }
 
 .features__article__title {
-    font-size: 35px;
-    margin-top: 10px;
-    font-weight: 300;
+  font-size: 35px;
+  margin-top: 10px;
+  font-weight: 300;
 }
 
 .features__article__footer {
-    margin-top: 200px;
+  margin-top: 200px;
 }
 
 .article__link {
-    color: #fff;
-    text-decoration: none;
-    border-bottom: 1px dashed #a4abb4;
-    font-weight: bold;
-    padding-bottom: 3px;
-    font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dashed #a4abb4;
+  font-weight: bold;
+  padding-bottom: 3px;
+  font-size: 18px;
 }
 
 .article__link--grey {
-    color: #a4abb4;
-    font-weight: 400;
+  color: #a4abb4;
+  font-weight: 400;
 }
 
 /* “Istaknuto svojstvo” proizvoda */
 
 .featured-feature {
-    display: flex;
-    align-items: center;
-    margin-bottom: 65px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 65px;
 }
 
 .featured-feature > * {
-    width: 50%;
+  width: 50%;
 }
 
 .featured-feature__title,
 .featured-feature__description {
-    padding-bottom: 10px;
-    padding-left: 70px;
-    width: 500px;
+  padding-bottom: 10px;
+  padding-left: 70px;
+  width: 500px;
 }
 
 /* JOŠ “svojstava” */
 
 .more-features {
-    display: flex;
-    margin-bottom: 65px;
-    padding-left: 70px;
-    padding-right: 40px;
+  display: flex;
+  margin-bottom: 65px;
+  padding-left: 70px;
+  padding-right: 40px;
 }
 
 .more-features > * {
-    width: 50%;
+  width: 50%;
 }
 
 .more-features__title {
-    width: 500px;
+  width: 500px;
 }
 
 .more-features__feature {
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid rgb(89, 95, 105);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(89, 95, 105);
 }
 
 .more-features__feature:first-child {
-    border-top: 1px solid rgb(89, 95, 105);
+  border-top: 1px solid rgb(89, 95, 105);
 }
 
 .more-features__feature__image {
-    margin: 64px;
+  margin: 64px;
 }
 
 .more-features__feature__text {
-    margin-left: 32px;
-    width: 400px;
+  margin-left: 32px;
+  width: 400px;
 }
 
 .more-features__feature__title {
-    font-weight: 400;
-    font-size: 26px;
+  font-weight: 400;
+  font-size: 26px;
 }
 
 /* Izdvojeni članci */
 
 .articles__header {
-    margin-top: 128px;
-    margin-bottom: 96px;
-    padding-left: 70px;
-    padding-right: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin-top: 128px;
+  margin-bottom: 96px;
+  padding-left: 70px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .articles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-left: 40px;
-    padding-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 30px;
 }
 
 .article {
-    width: 25%;
-    border-left: 1px solid rgb(89, 95, 105);
-    padding: 0 30px;
-    margin-bottom: 96px;
+  width: 25%;
+  border-left: 1px solid rgb(89, 95, 105);
+  padding: 0 30px;
+  margin-bottom: 96px;
 }
 
 .article__tag {
-    margin: 0;
+  margin: 0;
 }
 
 .article__title {
-    font-weight: 400;
-    font-size: 26px;
-    margin: 0;
-    margin-top: 10px;
-    height: 200px;
+  font-weight: 400;
+  font-size: 26px;
+  margin: 0;
+  margin-top: 10px;
+  height: 200px;
 }
 
 .article__image {
-    width: 100%;
-    margin-bottom: 64px;
+  width: 100%;
+  margin-bottom: 64px;
 }
