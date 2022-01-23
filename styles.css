@@ -1,5 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -28,6 +29,12 @@ body {
     color: #191919;
 }
 
+.button--yellow {
+    border-color: #cf8c29;
+    background-color: #cf8c29;
+    color: #191919;
+}
+
 /* Navigacija */
 
 .nav {
@@ -46,4 +53,120 @@ body {
 
 .nav__link:last-child {
     margin-right: 0;
+}
+
+/* Nekakva “svojstva” proizvoda */
+
+.features__nav {
+    display: flex;
+    padding: 65px 40px 20px 40px;
+}
+
+.features__nav__link {
+    width: 25%;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    color: #a4abb4;
+    border-bottom: 1px solid rgb(89, 95, 105);
+    text-decoration: none;
+}
+
+.features__nav__link--selected {
+    border-color: #cf8c29;
+    color: #cf8c29;
+}
+
+.features {
+    display: flex;
+}
+
+.features > * {
+    width: 50%;
+}
+
+.features__text {
+    padding: 70px 100px 30px 70px;
+}
+
+.feature__subtitle {
+    color: #a4abb4;
+    font-size: 14px;
+}
+
+.feature__title {
+    font-size: 44px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.feature__description {
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.feature__cards {
+    display: flex;
+}
+
+.feature__card {
+    width: 50%;
+    margin-left: 40px;
+}
+
+.feature__card__heading {
+    border-left: 1px solid #cf8c29;
+    padding: 0 30px;
+}
+
+.feature__card__title {
+    font-size: 64px;
+    line-height: 64px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.feature__card__source {
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 30px;
+}
+
+.features__article {
+    padding: 40px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.features__article__image {
+    width: 100%;
+}
+
+.features__article__text {
+    padding: 40px;
+    background-color: #373a25;
+}
+
+.features__article__tag {
+    margin: 0;
+}
+
+.features__article__title {
+    font-size: 35px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.features__article__footer {
+    margin-top: 100px;
+}
+
+.features__article__link {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dashed #a4abb4;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-size: 18px;
 }
