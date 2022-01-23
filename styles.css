@@ -188,3 +188,40 @@ body {
 .featured-feature__description {
     padding: 0 100px 10px 70px;
 }
+
+/* JOŠ “svojstava” */
+
+.more-features {
+    display: flex;
+    margin-bottom: 65px;
+    padding-left: 70px;
+    padding-right: 40px;
+}
+
+.more-features > * {
+    width: 50%;
+}
+
+.more-features__feature {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(89, 95, 105);
+}
+
+.more-features__feature:first-child {
+    border-top: 1px solid rgb(89, 95, 105);
+}
+
+.more-features__feature__image {
+    margin: 64px;
+    margin-left: 32px;
+}
+
+.more-features__feature__text {
+    margin: 32px 0;
+}
+
+.more-features__feature__title {
+    font-weight: 400;
+    font-size: 26px;
+}
