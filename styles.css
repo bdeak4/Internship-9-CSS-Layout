@@ -163,13 +163,17 @@ body {
     margin-top: 100px;
 }
 
-.features__article__link {
+.article__link {
     color: #fff;
     text-decoration: none;
     border-bottom: 1px dashed #a4abb4;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
     font-size: 18px;
+}
+
+.article__link--grey {
+    color: #a4abb4;
 }
 
 /* “Istaknuto svojstvo” proizvoda */
@@ -224,4 +228,48 @@ body {
 .more-features__feature__title {
     font-weight: 400;
     font-size: 26px;
+}
+
+/* Izdvojeni članci */
+
+.articles__header {
+    margin-top: 128px;
+    margin-bottom: 96px;
+    padding-left: 70px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.article {
+    width: 25%;
+    border-left: 1px solid rgb(89, 95, 105);
+    padding: 0 30px;
+    margin-bottom: 96px;
+}
+
+.article__tag {
+    margin: 0;
+}
+
+.article__title {
+    font-weight: 400;
+    font-size: 26px;
+    margin: 0;
+    margin-top: 10px;
+    height: 200px;
+}
+
+.article__image {
+    width: 100%;
+    margin-bottom: 32px;
 }
