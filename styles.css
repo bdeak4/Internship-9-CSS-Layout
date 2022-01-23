@@ -79,6 +79,7 @@ body {
 
 .features {
     display: flex;
+    margin-bottom: 65px;
 }
 
 .features > * {
@@ -169,4 +170,21 @@ body {
     font-weight: bold;
     padding-bottom: 5px;
     font-size: 18px;
+}
+
+/* “Istaknuto svojstvo” proizvoda */
+
+.featured-feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+.featured-feature > * {
+    width: 50%;
+}
+
+.featured-feature__title,
+.featured-feature__description {
+    padding: 0 100px 10px 70px;
 }
